@@ -1,0 +1,18 @@
+body {
+    background-image: url('https://www.theonering.net/torwp/wp-content/uploads/2021/08/LOTR-ultrawide-1440-16x9-1-scaled.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    color:  white;
+    display: flex;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
