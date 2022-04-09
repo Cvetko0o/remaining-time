@@ -6,13 +6,35 @@ body {
 }
 
 p {
-    color:  white;
+    color:  black;
     display: flex;
+    justify-content: right;
+    font-size: 4em;
+    padding-right: 50px;
 }
 
 .container {
-    color: white;
+    color: black;
     display: flex;
+    justify-content: right;
+}
+
+.remaining-num {
+    color: black;
+    font-size: 4em;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    height: 400px;
+    align-content: space-between;
+}
+
+.remaining {
+    font-size: 4em;
+}
+
+.string {
+    justify-content: space-between;
+    font-size: 0.5em;
+    font-family: 'Courier New', Courier, monospace;
 }
