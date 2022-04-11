@@ -17,7 +17,7 @@ function remainingTime() {
 
     daysEl.innerHTML = days;
     hoursEl.innerHTML = hours;
-    minutesEl.innerHTML = minutes;
+    minutesEl.innerHTML = formatTime(minutes);
     secondsEl.innerHTML = formatTime(seconds);
 
     function formatTime(time){
